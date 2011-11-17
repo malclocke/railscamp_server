@@ -18,3 +18,8 @@ apt::source { "nz":
 apt::source { "security":
   source => "deb http://security.debian.org/ squeeze/updates main contrib non-free"
 }
+
+# Set up a fake DNS entry
+# dnsmasq::address { "www.foo.com":
+#  address => '127.0.0.1'
+# }
