@@ -1,0 +1,7 @@
+<VirtualHost <%= bindto %>>
+  ServerName <%= servername %>
+  <%- if serveraliases -%>
+  ServerAlias <%= serveraliases %>
+  <%- end -%>
+  DocumentRoot <%= documentroot %>
+</VirtualHost>
