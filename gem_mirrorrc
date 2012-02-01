@@ -1,0 +1,4 @@
+---
+- from: http://rubygems.org
+  to: /vagrant/gems
+  parallelism: 10

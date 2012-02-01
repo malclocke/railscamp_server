@@ -1,3 +1,6 @@
 .rvmrc
 .vagrant
 local.pp
+gems/*4.8*
+gems/quick
+gems/gems
