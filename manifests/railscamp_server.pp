@@ -2,7 +2,7 @@ package {["vim", "netselect-apt", "rubygems"]:
   ensure => present
 }
 
-package {"bundler":
+package {["bundler", "rubygems-mirror"]:
   provider => gem,
   require => Package["rubygems"],
 }
