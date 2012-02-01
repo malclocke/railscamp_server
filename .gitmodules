@@ -1,0 +1,3 @@
+[submodule "twetter"]
+	path = twetter
+	url = git://github.com/malclocke/twetter.git
