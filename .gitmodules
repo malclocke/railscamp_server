@@ -1,3 +1,6 @@
 [submodule "twetter"]
 	path = twetter
 	url = git://github.com/malclocke/twetter.git
+[submodule "ideagora"]
+	path = ideagora
+	url = git://github.com/malclocke/ideagora.git
