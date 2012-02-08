@@ -45,6 +45,10 @@ apache::virtualhost {"railscamp.co.nz":
   documentroot  => "/vagrant/ideagora/public",
 }
 
+apache::virtualhost {"guides.rubyonrails.com":
+  documentroot  => "/vagrant/guides",
+}
+
 # Set up a fake DNS entry
 # dnsmasq::address { "www.foo.com":
 #  address => '127.0.0.1'
