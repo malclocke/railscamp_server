@@ -4,3 +4,6 @@
 [submodule "ideagora"]
 	path = ideagora
 	url = git://github.com/malclocke/ideagora.git
+[submodule "avatard"]
+	path = avatard
+	url = git://github.com/malclocke/avatard.git
