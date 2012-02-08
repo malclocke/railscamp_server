@@ -53,6 +53,10 @@ apache::virtualhost {"api.rubyonrails.org":
   documentroot  => "/vagrant/api",
 }
 
+apache::virtualhost {"gravatar.com":
+  documentroot  => "/vagrant/avatard/public",
+}
+
 # Set up a fake DNS entry
 # dnsmasq::address { "www.foo.com":
 #  address => '127.0.0.1'
