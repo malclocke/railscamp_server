@@ -45,11 +45,11 @@ apache::virtualhost {"railscamp.co.nz":
   documentroot  => "/vagrant/ideagora/public",
 }
 
-apache::virtualhost {"guides.rubyonrails.com":
+apache::virtualhost {"guides.rubyonrails.org":
   documentroot  => "/vagrant/guides",
 }
 
-apache::virtualhost {"api.rubyonrails.com":
+apache::virtualhost {"api.rubyonrails.org":
   documentroot  => "/vagrant/api",
 }
 
