@@ -3,7 +3,7 @@ class apache {
 
   service {"apache2": }
 
-  file {"/etc/apache/sites-available/default":
+  file {"/etc/apache2/sites-available/default":
     source  => "puppet:///modules/apache/default",
     require => Package["apache2"],
     notify  => Service["apache2"],
