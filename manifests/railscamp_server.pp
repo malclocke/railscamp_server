@@ -40,6 +40,11 @@ apache::virtualhost {"twitter.com":
   documentroot  => "/vagrant/twetter/public",
 }
 
+apache::virtualhost {"railscamp.co.nz":
+  serveraliases => "www.railscamp.co.nz",
+  documentroot  => "/vagrant/ideagora/public",
+}
+
 # Set up a fake DNS entry
 # dnsmasq::address { "www.foo.com":
 #  address => '127.0.0.1'
